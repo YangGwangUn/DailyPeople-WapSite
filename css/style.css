@@ -1,0 +1,164 @@
+@charset "uft-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li {
+
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+body{
+    background-color: #eaeaea;
+    
+}
+header{
+    width: 100%;
+    height: 50px;
+}
+
+.main_head {
+    margin: 0 auto;
+    width: 100%;
+    z-index: 999;
+    height: 50px;
+    background: #111;
+    line-height: 50px;
+
+}
+
+.main_inner {
+    width: 980px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.main_logo {
+    color: aliceblue;
+    height: 50px;
+    font-family: "proxima Nova", Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    width: 200px;
+    outline: none;
+    font-size: 24px;
+}
+
+.main_gallery {
+    color: aliceblue;
+    text-decoration-line: none;
+    margin-left: 30px;
+}
+
+.main_gallery:hover {
+    background-color: aliceblue;
+    color: #111;
+}
+
+.main_search_inner {
+    text-align:center;
+}
+
+.main_search {
+    display:inline-block;
+    text-shadow: none;
+    margin-left: 290px;
+    height: 30px;
+    width: 200px;
+    color: grey;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.login {
+    color: aliceblue;
+    text-decoration-line: none;
+    margin-left: 30px;
+}
+
+.login:hover {
+    background-color: aliceblue;
+    color: #111;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+}
+
+.gender_warp {
+    margin: 0 auto;
+    width: 900px;
+    height: 720px;
+}
+
+.gender_inner > div{
+    display: inline-block;
+}
+
+.style_gender {
+    display: inline-block;
+}
+
+.gender {
+    margin: 20px;
+    width: 400px;
+    height: 600px;
+    background-color: #000080;
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: .5s ease-in-out;
+    -moz-filter: grayscale(100%);   
+    -moz-transition: .5s ease-in-out;  
+    -o-filter: grayscale(100%);   
+    -o-transition: .5s ease-in-out;
+    position: relative;
+    color: #eaeaea;
+    font-size: 2.0em;
+    text-align: center;
+    border-radius: 5px;
+    font-family: Georgia, serif;
+}
+
+
+
+.gender:hover{
+    transform: scale(1.1);
+    transition: .5s;
+    -webkit-filter: grayscale(0%);
+    -webkit-transition: .5s ease-in-out;
+    -moz-filter: grayscale(0%);
+    -moz-transition: .5s ease-in-out;
+    -o-filter: grayscale(0%);
+    -o-transition: .5s ease-in-out;
+}
+
+
+
+#man {
+   margin-top: 55px;
+   background: url(/img/man.jpeg);
+   background-size: 100%;
+}
+
+#man:hover {
+    margin-top: 55px;
+    outline: 5px solid  #000080;
+ }
+
+#women {
+ background: url(/img/women.jpeg);
+ background-size: 100%;
+}
+
+#women:hover {
+    outline: 5px solid rgb(249, 106, 106);
+}
+
+
